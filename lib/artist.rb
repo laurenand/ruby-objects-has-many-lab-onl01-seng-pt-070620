@@ -17,7 +17,7 @@ class Artist
   
   def add_song_by_name(name)
     
-    binding.pry
+    
   end
   
   def self.song_count
