@@ -11,7 +11,7 @@ class Author
   end
   
   def posts
-    Song.all.select {|song| song.artist == self}
+    Post.all.select {|pst| pst.artist == self}
   end
   
 end
